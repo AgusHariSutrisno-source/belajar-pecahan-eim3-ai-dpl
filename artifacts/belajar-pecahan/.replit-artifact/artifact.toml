@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Belajar Pecahan E-IM3"
+version = "1.0.0"
+id = "artifacts/belajar-pecahan"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18532
+
+[services.development]
+run = "pnpm --filter @workspace/belajar-pecahan run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/belajar-pecahan", "run", "build" ]
+publicDir = "artifacts/belajar-pecahan/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18532"
+BASE_PATH = "/"

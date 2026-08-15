@@ -1,0 +1,218 @@
+REVISI TERBATAS BERDASARKAN SARAN VALIDATOR — JANGAN MEMBUAT ULANG APLIKASI
+
+Saya ingin merevisi project aplikasi yang SUDAH ADA, bukan membuat aplikasi baru.
+
+TUJUAN:
+Menindaklanjuti saran validator media pembelajaran E-IM3 berbasis AI-DPL, khususnya:
+1. Level soal mudah, sedang, sulit disesuaikan menjadi level numerasi:
+   - Mudah → KNOWING
+   - Sedang → APPLYING
+   - Sulit/Menantang → REASONING
+2. Menambahkan CP dan TP pada bagian awal/beranda.
+3. Menyesuaikan Penyelesaian E-IM3, Latihan, dan Tes dengan CP/TP serta level numerasi.
+4. Istilah "Tes Sumatif" yang tampil kepada pengguna diganti menjadi "Tes Evaluasi".
+
+CP:
+"Peserta didik mampu melakukan perbandingan dan pengurutan pecahan dengan pembilang satu serta memahami konsep pecahan dalam kehidupan sehari-hari."
+
+TP:
+1. Murid mampu membandingkan dua pecahan dengan pembilang satu.
+2. Murid mampu mengurutkan beberapa pecahan dengan pembilang satu dari terbesar ke terkecil atau sebaliknya.
+
+ATURAN PALING PENTING:
+JANGAN MENGUBAH DESAIN APLIKASI YANG SUDAH ADA.
+
+Pertahankan 100% sebisa mungkin:
+- warna dan kombinasi warna
+- background
+- layout
+- ukuran dan posisi komponen
+- ilustrasi/gambar
+- ikon
+- font
+- card
+- sidebar/menu
+- tombol
+- navigasi
+- tampilan Login
+- tampilan Beranda
+- tampilan Materi
+- tampilan E-IM3
+- tampilan Latihan
+- tampilan Tes
+- tampilan Refleksi
+- tampilan Nilai
+- AI Tutor
+- sistem LocalStorage
+- sistem penyimpanan nilai
+- progress
+- validasi tahapan E-IM3
+- fungsi aplikasi yang sudah berjalan
+
+JANGAN:
+- membuat desain baru
+- mengganti tema warna
+- mengganti layout
+- menghapus menu
+- menghapus fitur
+- mengganti ilustrasi
+- membuat project baru
+- mengganti framework
+- mengganti struktur aplikasi tanpa kebutuhan
+- mengubah fitur yang tidak berkaitan dengan revisi validator
+
+KERJAKAN HANYA REVISI BERIKUT:
+
+1. LEVEL NUMERASI
+
+Pada bagian yang sekarang menggunakan istilah:
+"Mudah", "Sedang", dan "Sulit" atau istilah sejenis untuk tingkatan soal, ubah istilah tampilannya menjadi:
+
+KNOWING
+APPLYING
+REASONING
+
+Gunakan pemetaan:
+- Mudah → KNOWING
+- Sedang → APPLYING
+- Sulit/Menantang → REASONING
+
+PENTING:
+Jangan mengubah desain kartu atau tampilannya. Hanya sesuaikan teks/label level.
+
+Makna soal:
+- KNOWING: siswa mengenali/memahami konsep dasar pecahan pembilang satu.
+- APPLYING: siswa menerapkan konsep untuk membandingkan atau mengurutkan pecahan pembilang satu dalam situasi yang diberikan.
+- REASONING: siswa membandingkan/mengurutkan pecahan pembilang satu disertai alasan, penjelasan, atau penalaran.
+
+2. CP DAN TP PADA BERANDA
+
+Tambahkan bagian/kartu informasi CP dan TP pada menu BERANDA.
+
+Gunakan teks PERSIS:
+
+"Capaian Pembelajaran (CP)"
+"Peserta didik mampu melakukan perbandingan dan pengurutan pecahan dengan pembilang satu serta memahami konsep pecahan dalam kehidupan sehari-hari."
+
+"Tujuan Pembelajaran (TP)"
+"1. Murid mampu membandingkan dua pecahan dengan pembilang satu."
+"2. Murid mampu mengurutkan beberapa pecahan dengan pembilang satu dari terbesar ke terkecil atau sebaliknya."
+
+Tambahkan secara menyatu dengan desain Beranda yang SUDAH ADA.
+
+Jangan membuat halaman baru jika tidak diperlukan.
+
+3. MATERI
+
+Pertahankan materi dan desain yang sudah ada.
+
+Sesuaikan bagian tingkatan contoh soal:
+- KNOWING
+- APPLYING
+- REASONING
+
+Pastikan contoh soal tetap berkaitan dengan:
+- pecahan pembilang satu
+- membandingkan pecahan
+- mengurutkan pecahan
+- konteks kehidupan sehari-hari jika sesuai.
+
+Jangan menghapus materi yang sudah ada kecuali memang bertentangan langsung dengan CP/TP.
+
+4. PENYELESAIAN MASALAH E-IM3
+
+Pertahankan 4 tahapan E-IM3:
+- Identifikasi Masalah
+- Membangun Ide
+- Mengklarifikasi Ide
+- Menilai Kewajaran Ide
+
+Jangan mengubah mekanisme E-IM3 yang sudah berjalan.
+
+Sesuaikan isi masalah agar mendukung CP/TP:
+- membandingkan dua pecahan dengan pembilang satu
+- mengurutkan beberapa pecahan dengan pembilang satu
+
+Pastikan masalah dapat dikategorikan ke level numerasi KNOWING, APPLYING, atau REASONING sesuai tingkat tuntutannya.
+
+Pertahankan validasi bahwa siswa harus mengisi tahapan sebelum melanjutkan.
+
+Pertahankan kewajiban memberikan alasan pada tahap Mengklarifikasi Ide.
+
+5. LATIHAN SOAL
+
+Pertahankan jumlah soal, struktur halaman, tombol, desain, dan sistem penilaian yang sudah ada sebisa mungkin.
+
+Sesuaikan isi soal agar benar-benar mendukung CP dan TP.
+
+Soal harus mencakup:
+- perbandingan pecahan pembilang satu
+- pengurutan pecahan pembilang satu
+- konteks kehidupan sehari-hari jika sesuai.
+
+Berikan label level numerasi:
+- KNOWING
+- APPLYING
+- REASONING
+
+Jangan hanya mengganti label. Pastikan isi soal juga sesuai dengan levelnya.
+
+6. TES
+
+Istilah yang tampil kepada siswa:
+"Tes Sumatif"
+
+UBAH MENJADI:
+"Tes Evaluasi"
+
+Jika terdapat judul seperti:
+"Tes Sumatif"
+ubah menjadi:
+"Tes Evaluasi"
+
+Jangan mengubah nama variabel internal, LocalStorage, atau fungsi pemrograman jika tidak diperlukan. Tujuannya hanya mengubah istilah yang tampil kepada pengguna agar aman dan hemat perubahan.
+
+Sesuaikan soal Tes Evaluasi dengan:
+- CP
+- TP
+- level numerasi KNOWING
+- APPLYING
+- REASONING
+
+Fokus pada kemampuan:
+1. membandingkan dua pecahan dengan pembilang satu;
+2. mengurutkan beberapa pecahan dengan pembilang satu dari terbesar ke terkecil atau sebaliknya.
+
+7. JANGAN MENGUBAH SISTEM YANG SUDAH BERFUNGSI
+
+Sebelum mengubah kode, periksa project yang sudah ada.
+
+Gunakan struktur dan komponen yang sudah tersedia.
+
+Lakukan perubahan seminimal mungkin.
+
+Setelah selesai:
+- pastikan tidak ada error TypeScript/React
+- pastikan aplikasi tetap dapat dijalankan
+- pastikan semua menu tetap dapat dibuka
+- pastikan navigasi tetap berfungsi
+- pastikan nilai tetap tersimpan
+- pastikan LocalStorage tetap berfungsi
+- pastikan AI Tutor tetap ada
+- pastikan E-IM3 tetap berfungsi
+- pastikan desain tetap sama.
+
+JANGAN melakukan perubahan lain di luar permintaan ini.
+
+PRIORITAS:
+1. Fungsi aplikasi lama tetap aman.
+2. Desain lama tetap dipertahankan.
+3. CP dan TP ditambahkan.
+4. Level Mudah/Sedang/Sulit menjadi KNOWING/APPLYING/REASONING.
+5. Isi soal diselaraskan dengan CP/TP.
+6. "Tes Sumatif" menjadi "Tes Evaluasi".
+
+KERJAKAN LANGSUNG PADA PROJECT YANG SUDAH ADA.
+JANGAN MEMBUAT PROJECT BARU.
+JANGAN MEROMBAK DESAIN.
+JANGAN MEMBERIKAN PENJELASAN PANJANG SEBELUM MENGERJAKAN.
